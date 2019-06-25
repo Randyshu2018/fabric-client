@@ -1,0 +1,8 @@
+NodeOUs:
+    Enable: true
+    ClientOUIdentifier:
+      Certificate: intermediatecerts/localhost-7056.pem
+      OrganizationalUnitIdentifier: client
+    PeerOUIdentifier:
+      Certificate: intermediatecerts/localhost-7056.pem
+      OrganizationalUnitIdentifier: peer
